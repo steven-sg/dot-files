@@ -1,0 +1,9 @@
+{
+    "j": "Navigate down",
+    "k": "Navigate up",
+    "l": "Navigate right",
+    "h": "Navigate left",
+    "w": "Go to the next word",
+    "e": "Go to the end of the current word",
+    "b": "Go to the previous (before) word"
+}
