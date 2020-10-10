@@ -1,0 +1,32 @@
+mkcdir ()
+{
+    mkdir -p -- "$1" && cd -P -- "$1"
+}
+
+rcp ()
+{
+    pwd | xargs -I{} echo alias cd_$1=\"cd {}\" >> ~/.zshrc && . ~/.zshrc
+}
+
+add_alias ()
+{
+    echo alias $1=\"$2\" >> ~/.zshrc && . ~/.zshrc
+}
+
+# alias
+alias node-await="node --experimental-repl-await"
+
+alias e="exa"
+alias ea="exa -a"
+alias ela="exa -la"
+alias el="ela -l"
+
+alias g="git"
+alias ga="git add"
+alias gd="git diff"
+alias gl="git log"
+alias gs="git status"
+alias gS="git stash"
+
+alias zshsource="source ~/.zshrc"
+alias zshconfig="vim ~/.zshrc"
