@@ -109,8 +109,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Initiate user zshrc file
-source ~/dot-files/zsh/zshrc
-test -f ~/dot-files/zsh/zshrc-override && source ~/dot-files/zsh/zshrc-override
+source ~/dotfiles/zsh/zshrc
+test -f ~/dotfiles/zsh/zshrc-override && source ~/dotfiles/zsh/zshrc-override
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
