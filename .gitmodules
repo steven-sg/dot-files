@@ -1,3 +1,12 @@
-[submodule "zsh/.oh-my-zsh"]
-	path = zsh/.oh-my-zsh
+[submodule "/Users/stevensong/Personal/dotfiles/zsh/oh-my-zsh"]
+	path = /Users/stevensong/Personal/dotfiles/zsh/oh-my-zsh
 	url = https://github.com/ohmyzsh/ohmyzsh
+[submodule "/Users/stevensong/dotfiles/zsh/oh-my-zsh-custom/themes/powerlevel10k"]
+	path = /Users/stevensong/dotfiles/zsh/oh-my-zsh-custom/themes/powerlevel10k
+	url = https://github.com/romkatv/powerlevel10k.git
+[submodule "/Users/stevensong/dotfiles/zsh/oh-my-zsh-custom/plugins/zsh-syntax-highlighting"]
+	path = /Users/stevensong/dotfiles/zsh/oh-my-zsh-custom/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "/Users/stevensong/dotfiles/zsh/oh-my-zsh-custom/plugins/zsh-autosuggestions"]
+	path = /Users/stevensong/dotfiles/zsh/oh-my-zsh-custom/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
