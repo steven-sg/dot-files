@@ -1,0 +1,20 @@
+{
+  "entries": {
+    "brew": {
+      "koekeishiya/formulae/skhd": null,
+      "koekeishiya/formulae/yabai": null
+    }
+  },
+  "system": {
+    "macos": {
+      "big_sur": {
+        "HOMEBREW_VERSION": "3.0.0",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "d01147991428856880e9367df993ac17cbd1c75a",
+        "CLT": "",
+        "Xcode": "12.4",
+        "macOS": "11.2"
+      }
+    }
+  }
+}

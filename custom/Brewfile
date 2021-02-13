@@ -1,0 +1,4 @@
+# Specific: Window Manager
+brew "koekeishiya/formulae/skhd"
+brew "koekeishiya/formulae/yabai"
+
