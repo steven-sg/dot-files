@@ -112,7 +112,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Initiate user zshrc file
 source ~/dotfiles/zsh/zshrc
-test -f ~/.zshrc-override && source ~/.zshrc-override
+test -f ~/dotfiles-override/zshrc && source ~/dotfiles-override/zshrc
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
