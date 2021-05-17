@@ -28,8 +28,8 @@
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "prettier.configPath": "~/dot-files/prettier/.prettierrc",
-    "prettier.prettierPath": "~/dot-files/prettier/node_modules/prettier",
+    "prettier.configPath": "~/dotfiles/prettier/.prettierrc",
+    "prettier.prettierPath": "~/dotfiles/prettier/node_modules/prettier",
     "prettier.useEditorConfig": false,
     "sync.gist": "7c9f262bdd2ebb9daf90bd123f5bafe3",
     "sync.removeExtensions": true,
@@ -38,8 +38,14 @@
     "terminal.external.osxExec": "iTerm.app",
     "todo-tree.tree.showScanModeButton": false,
     "window.zoomLevel": 0,
+    "selection.background": "#fdfdb0",
     "workbench.colorCustomizations": {
-        "editor.selectionBackground": "#135564",
+        "editor.selectionBackground": "#fdfdb0",
+        "editor.selectionHighlightBorder": "#fdfdb0",
+        // "editor.selectionHighlightBackground": "#aafaaa",
+        "editor.findMatchBackground": "#f8a1ad",
+        // "editor.findMatchHighlightBackground": "#ffbbff"
+        "editor.findMatchHighlightBorder": "#f8a1ad"
     },
     "workbench.colorTheme": "Eva Dark",
     "terminal.integrated.fontFamily": "mesloLGS NF",
@@ -98,9 +104,75 @@
             "value": "E8E6E7"
         }
     ],
+    "workbench.preferredLightColorTheme": "Quiet Light",
     "workbench.preferredDarkColorTheme": "Eva Dark",
     "workbench.preferredHighContrastColorTheme": "Eva Dark",
+    "window.autoDetectColorScheme": false, // required!
+    "sundial.interval": 20,
     "peacock.affectStatusAndTitleBorders": true,
     "peacock.affectTabActiveBorder": true,
-    "peacock.affectTitleBar": false
+    "peacock.affectTitleBar": false,
+    "markdown.extension.toc.unorderedList.marker": "*",
+    "markdown.extension.print.theme": "dark",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "vim.highlightedyank.color": "",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.enablePreview": false,
+    "search.useReplacePreview": false,
+    "editor.minimap.enabled": false,
+    "sundial.latitude": "53.3778",
+    "sundial.longitude": "-6.3967 ",
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "yaml.validate": false,
+    "python.pythonPath": "/usr/local/bin/python3",
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.focusSidebar",
+            "sequence": ["workbench.files.action.focusFilesExplorer"]
+        },
+        {
+            "command": "multiCommand.focusEditor",
+            "sequence": [
+                "workbench.action.closeSidebar",
+                "workbench.action.focusActiveEditorGroup"
+            ]
+        }
+    ],
+    "todo.symbols.box": "[]",
+    "todo.symbols.cancelled": "X",
+    "todo.symbols.done": "[X]"
 }
