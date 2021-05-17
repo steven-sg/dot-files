@@ -7,4 +7,5 @@ if [ ! -d $settings_path ]; then
     exit
 fi
 
+cat extensions.txt | xargs -n 1 code --install-extension
 # TODO

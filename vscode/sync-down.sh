@@ -7,4 +7,5 @@ if [ ! -d $settings_path ]; then
     exit
 fi
 
+code --list-extensions > ~/dotfiles/vscode/extensions.txt
 # TODO
