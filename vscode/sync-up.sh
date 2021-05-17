@@ -7,5 +7,11 @@ if [ ! -d $settings_path ]; then
     exit
 fi
 
+if [ ! -d ~/dotfiles/vscode ]; then
+    echo "ABORTING: VSCode dotfiles path not found."
+    exit
+fi
+
 cat extensions.txt | xargs -n 1 code --install-extension
-# TODO
+cat ~/dotfiles/vscode/settings.json > ~/Library/Application\ Support/Code/User/settings.json
+cat ~/dotfiles/vscode/keybindings.json > ~/Library/Application\ Support/Code/User/keybindings.json
