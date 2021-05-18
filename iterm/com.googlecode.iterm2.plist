@@ -242,10 +242,28 @@
 			<key>Text</key>
 			<string></string>
 		</dict>
+		<key>0x6a-0x100000-0x26</key>
+		<dict>
+			<key>Action</key>
+			<integer>31</integer>
+			<key>Label</key>
+			<string></string>
+			<key>Text</key>
+			<string></string>
+		</dict>
 		<key>0x6a-0x80000</key>
 		<dict>
 			<key>Action</key>
 			<integer>6</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0x6b-0x100000-0x28</key>
+		<dict>
+			<key>Action</key>
+			<integer>30</integer>
+			<key>Label</key>
+			<string></string>
 			<key>Text</key>
 			<string></string>
 		</dict>
@@ -270,24 +288,10 @@
 			<key>Text</key>
 			<string></string>
 		</dict>
-		<key>0xf702-0x320000</key>
-		<dict>
-			<key>Action</key>
-			<integer>33</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
 		<key>0xf703-0x300000</key>
 		<dict>
 			<key>Action</key>
 			<integer>0</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0xf703-0x320000</key>
-		<dict>
-			<key>Action</key>
-			<integer>34</integer>
 			<key>Text</key>
 			<string></string>
 		</dict>
@@ -1753,7 +1757,7 @@
 	<key>PromptOnQuitEvenIfThereAreNoWindows</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<true/>
+	<false/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
