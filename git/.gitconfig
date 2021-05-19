@@ -18,3 +18,7 @@
 	whitespace = red reverse
 [include]
 	path = ~/dotfiles-override/.gitconfig
+[pull]
+	rebase = true
+[rerere]
+	enabled = true
