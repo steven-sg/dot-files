@@ -30,8 +30,10 @@ alias gS="git stash"
 
 alias zshsource="source ~/.zshrc"
 alias zshconfig="vim ~/.zshrc"
+alias git-config="git config --global --list --includes"
 
 eval $(thefuck --alias)
 
 # ENVIRONMENT VARIABLES
 ZSH_CUSTOM=~/dotfiles/zsh/oh-my-zsh-custom
+
